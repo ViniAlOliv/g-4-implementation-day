@@ -1,0 +1,14 @@
+{
+  "name": "event-manager-api",
+  "version": "1.0.0",
+  "description": "API Rest para gerenciar eventos (listagem, filtros, cadastro) usando Express e armazenamento em memória.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
