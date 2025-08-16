@@ -4,10 +4,14 @@
   "description": "API Rest para gerenciar eventos (listagem, filtros, cadastro) usando Express e armazenamento em memória.",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "test": "mocha"
   },
   "dependencies": {
+    "chai": "^4.5.0",
     "express": "^5.1.0",
+    "mocha": "^11.7.1",
+    "supertest": "^7.1.4",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   }
