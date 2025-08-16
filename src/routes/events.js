@@ -85,7 +85,7 @@ router.post('/', (req, res) => {
   }
   const event = { id: events.length + 1, name, startDate, endDate, tag };
   events.push(event);
-  res.status(201).json(event);
+  res.status(204).json(event);
 });
 
 /**
